@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+
+</head>
+<body style=" background: #F0EFE2 url(../background.png) repeat;">
+<center >
+		<h3><a style="text-decoration-line: none;" href="../../applications.php">Antipirated Playstore</a></h3>
+		<div class="container" style="width:300px;  background-color:white; border: 2px solid black;">
+			<div class="row">
+
+				<h4>You can Use this Calculator:</h4>
+				<hr>
+				<div class="col-md-4 col-lg-10 col-xs-10">
+					<input style="margin-left: 20px;" type="text"  name="numbers" id="num" value="" class="form-control">
+				</div></div><br>
+				<div class="row">
+				<div style="margin-left: 15px;" class=" col-md-4 col-lg-10 ">
+					<button class="btn btn-success" id="zero">0</button>
+					<button class="btn btn-success" id="one">1</button>
+					<button class="btn btn-success" id="two">2</button>
+					<button class="btn btn-success" id="three">3</button>
+					<button class="btn btn-success" id="four">4</button>
+				</div></div><br>
+				<div class="row">
+				<div style="margin-left: 15px;" class=" col-md-4 col-lg-10">
+					<button class="btn btn-success" id="five">5</button>
+					<button class="btn btn-success" id="six">6</button>
+					<button class="btn btn-success" id="seven">7</button>
+					<button class="btn btn-success" id="eight">8</button>
+					<button class="btn btn-success" id="nine">9</button>		
+				</div></div><br>
+				<div class="row">
+				<div style="margin-left: 15px;" class=" col-md-4 col-lg-10">
+					<button class="btn btn-success" id="add">+</button>
+					<button class="btn btn-success" id="sub">-</button>
+					<button class="btn btn-success" id="mul">*</button>
+					<button class="btn btn-success" id="div">/</button>
+					<button class="btn btn-success" id="modulus">%</button>
+						
+				</div></div><br>
+				<div class="row">
+				<div style="margin-left: 10px;" class=" col-md-4 col-lg-10">
+					<button class="btn btn-success" id="result">=</button>	
+					<button class="btn btn-success" id="clear">C</button>
+					
+				</div></div><br>
+				
+
+			
+		</div></center>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$('#zero').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+0);
+
+		
+	});
+	$('#one').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+1);
+	});
+	$('#two').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+2);
+	});
+	$('#three').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+3);
+	});
+	$('#four').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+4);
+	});
+	$('#five').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+5);
+	});
+	$('#six').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+6);
+	});
+	$('#seven').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+7);
+	});
+	$('#eight').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+8);
+	});
+	$('#nine').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+9);
+	});
+	$('#add').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+'+');
+	});
+	$('#sub').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+'-');
+	});
+	$('#mul').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+'*');
+	});
+	$('#div').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+'/');
+	});
+	$('#modulus').click(function(){
+		var num = $('#num').val();
+		$('#num').val(num+'%');
+	});
+	$('#clear').click(function(){
+		var num= $('#num').val();
+		num='';
+		$('#num').val(num);
+	});
+	$('#result').click(function(){
+		var num= eval($('#num').val());
+		$('#num').val(num);
+	})
+</script>		
+</body>
+</html>
