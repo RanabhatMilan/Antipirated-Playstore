@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Quiz App</title>
+ 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 	<link  href="icons/quiz.ioc">
+ </head>
+ <body style="  background: #F0EFE2 url(icons/background.png) repeat;">
+<div class="container">
+	<h4 style="text-align: center;"><a href="../../applications.php" style=" text-decoration-line: none; ">Antipirated Playstore</a>    </h4>
+
+	<h3>Simple Javascript quiz:  </h3>
+	<ul><li>Five Levels</li>
+		<li>Each levels Contain  5 questions</li>
+		<li>Each question carry one score</li>
+		<li>At the end you can view your total score</li>
+		<li>The correct answer of every questions is given at the end</li>	
+
+	</ul>
+<div>
+	<button style="background-color: blue;"  class="btn" onclick="startapp(1);">LEVEL 1</button><span style="padding-right: 10px; padding-left: 10px;"><button style=" background-color: yellow;"   class="btn" onclick="startapp(2);">LEVEL 2</button></span><span style="padding-right: 10px; padding-left: 10px;"><button style=" background-color: green;"  class="btn" onclick="startapp(3);">LEVEL 3</button></span><span style="padding-right: 10px; padding-left: 10px;"><button style=" background-color: pink;"  class="btn" onclick="startapp(4);">LEVEL 4</button></span><span style="padding-right: 10px; padding-left: 10px;"><button style=" background-color: orange;"  class="btn" onclick="startapp(5);">LEVEL 5</button></span>
+</div>
+
+ <script type="text/javascript">
+ //	const electron	= require('electron');
+//	const{ipcRenderer} = electron;
+
+		 function startapp(a){
+		 	var b = a;
+		//ipcRenderer.send('item:startApp',b);
+		window.location.href = 'quizz/quiz'+b+'.html';
+		}
+	//	function closeapp(){
+	//		ipcRenderer.send('item:closeApp');
+	//	}
+ </script>
+ </body>
+ </html>
+
