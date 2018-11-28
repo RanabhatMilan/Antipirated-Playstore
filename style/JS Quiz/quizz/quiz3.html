@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript quiz application</title>
+  
+  
+  <link rel='stylesheet prefetch' href='../css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='../css/font-awesome.css'>
+  <link rel="shortcut icon" href="../icons/quiz.ico" type="image/x-icon">
+
+
+        <link rel="stylesheet" href="../css/style.css">
+      <script type="text/javascript" src="../js/jquery.min.js"></script>
+  
+</head>
+
+<body>
+
+  <header  class="header bg-primary ">
+<a href="../"  style="text-decoration-line: none;"><div class="left-title">JS Quiz</div></a>   <span style="padding-left: 600px;">Level 3</span>   
+      <div class="right-title">Total Questions: <span id="tque"></span></div>
+      <div class="clearfix"></div>
+    </header>
+<div class="content">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-12">
+        	<div align="center" id="result" class="quiz-body">
+            <form name="quizForm" onSubmit="" style="width: 400px;text-align: left;">
+            	<fieldset class="form-group">
+    			<h4><span id="qid">1.</span> <span id="question"></span></h4>
+                
+                <div class="option-block-container" id="question-options">
+                  
+                 </div> <!-- End of option block -->
+                 </fieldset>
+                 <button  name="previous" id="previous" class="btn btn-success">Previous</button>
+                 &nbsp;
+                 <button  name="next" id="next" class="btn btn-success">Next</button>
+           </form>
+           </div>
+        </div> <!-- End of col-sm-12 -->
+        
+    </div> <!-- End of row -->
+</div> <!-- ENd of container fluid -->
+</div> <!-- End of content -->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script src='../js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="../js/index3.js"></script>
+
+<script type="text/javascript">
+ function nxtlevel(){
+    window.location.href= 'quiz4.html';
+
+   // data = "2";
+ //$.get("quiz.html",function(data){
+  //alert(data);
+
+  //document.getElementById("mil").value = "Milan";
+  }
+</script>
+
+
+</body>
+
+</html>
