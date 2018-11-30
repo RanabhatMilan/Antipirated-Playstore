@@ -114,7 +114,7 @@ if (isset($_GET['id'])) {
 
                             <h3>
                             
-                            <a id="remove_download"  onclick="remove_download();"  href="admin/upload/<?php  
+                            <a id="remove_download"   href="admin/upload/<?php  
                             if($_GET['table'] == "games"){
                             echo 'games/'.$apps_by_id['games'];
                              }
@@ -205,16 +205,13 @@ if (isset($_GET['id'])) {
 
 <script type="text/javascript">
 $('#remove_download').click(function(){
-  return alert('Application is ready to download.');
+  if( confirm('Application is ready to download.')){
+    remove_download();
+  }else{
+    return false;
+  }
 });
- /*function remove_download(){
 
-  document.getElementById("remove_download").setAttribute("hidden","");
- }*/
-  
- /*function hide_download(){
-  $('#download').setAttribute('hidden');
- }*/
 
  $('#dwn_agn').click(function(){
    var app_id = $('#hidden').html();
