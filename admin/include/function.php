@@ -220,7 +220,7 @@ function getAllAppsInfo($table){
   }
 
   function deleteimageFF($img, $path){
-    $path = $_SERVER['DOCUMENT_ROOT'].'/majorProject/admin/'.$path.$img;
+    $path = $_SERVER['DOCUMENT_ROOT'].'/Antipirated-Playstore/admin/'.$path.$img;
    // echo $path;
     //exit;
     $success = false;
@@ -231,7 +231,7 @@ function getAllAppsInfo($table){
   }
 
   function deleteappFF($app, $filepaath){
-     $path = $_SERVER['DOCUMENT_ROOT'].'/majorProject/admin/'.$filepaath.$app;
+     $path = $_SERVER['DOCUMENT_ROOT'].'/Antipirated-Playstore/admin/'.$filepaath.$app;
       $success = false;
     if (file_exists($path) && $path != "") {
     $success = unlink($path);
