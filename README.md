@@ -7,5 +7,10 @@ Note: To connect to DB create database 'major_project' and import MysqlDB.sql fi
 
 OR you can go to admin/include/db.php and change database configuration as per you need
 
+## Below are some of the screen-shot of the website
+
 ![Untitled collage2](https://user-images.githubusercontent.com/41549427/60393039-b2ad1800-9b2e-11e9-851d-45bc51289419.jpg)
+
+![Untitled collage3](https://user-images.githubusercontent.com/41549427/60393128-171ca700-9b30-11e9-804f-741f18aaab5f.jpg)
+
 
