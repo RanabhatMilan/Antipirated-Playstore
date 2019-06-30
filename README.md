@@ -13,4 +13,6 @@ OR you can go to admin/include/db.php and change database configuration as per y
 
 ![Untitled collage3](https://user-images.githubusercontent.com/41549427/60393128-171ca700-9b30-11e9-804f-741f18aaab5f.jpg)
 
+## Below are some of the screen-shot of UI of the apps
 
+![Untitled collage4](https://user-images.githubusercontent.com/41549427/60393435-1cc8bb80-9b35-11e9-9f05-46199cfe7830.jpg)
