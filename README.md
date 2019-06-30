@@ -6,3 +6,6 @@ Note: To see admin pannel, login with email:admin@admin.com and password:admin
 Note: To connect to DB create database 'major_project' and import MysqlDB.sql file 
 
 OR you can go to admin/include/db.php and change database configuration as per you need
+
+![Untitled collage2](https://user-images.githubusercontent.com/41549427/60393039-b2ad1800-9b2e-11e9-851d-45bc51289419.jpg)
+
